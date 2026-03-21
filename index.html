@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VibeCheck | Your Daily Boost</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Nunito:wght@700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="blob blob-1" aria-hidden="true"></div>
+  <div class="blob blob-2" aria-hidden="true"></div>
+
+  <main class="app-container">
+    <section class="card" role="region" aria-label="VibeCheck Interface">
+      <header>
+        <h1 class="brand-name">VibeCheck</h1>
+        <div class="mode-toggle" role="tablist">
+          <button id="mode-compliment" class="tab-btn active" role="tab" aria-selected="true">✨ Compliment</button>
+          <button id="mode-joke" class="tab-btn" role="tab" aria-selected="false">😂 Joke</button>
+        </div>
+      </header>
+
+      <div class="display-area">
+        <p id="main-output" aria-live="polite">Ready for a vibe shift?</p>
+      </div>
+
+      <div class="button-wrapper">
+        <button id="generate-btn" class="primary-btn">Generate Good Vibes</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
